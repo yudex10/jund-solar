@@ -1,0 +1,28 @@
+# Local review evidence and delivery notes
+/review/
+/ENTREGA.md
+
+# Local preview, capture, verification and performance helpers
+/tools/
+/previews/
+/preview/
+/preview-*.png
+/preview-*.jpg
+/preview-*.webp
+
+# Development-only tests and results
+/tests/
+/test/
+/test-results/
+/playwright-report/
+/coverage/
+*.test.*
+*.spec.*
+
+# Temporary files and local dependencies
+*.tmp
+*.log
+*~
+/node_modules/
+.DS_Store
+Thumbs.db
