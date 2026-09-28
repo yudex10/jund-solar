@@ -1,8 +1,7 @@
 (() => {
   'use strict';
-  // Pending client confirmation. Allowed values: null, 'vendas', 'thiago', 'guilherme'.
-  // null preserves existing CTA destinations and leaves all contacts unassigned.
-  const PRIMARY_SALES_CONTACT = null;
+  // Principal contact confirmed by the client: (11) 99812-8422.
+  const PRIMARY_SALES_CONTACT = 'thiago';
   const contactLinks = [...document.querySelectorAll('[data-contact-id]')];
   const primaryContact = contactLinks.find(link => link.dataset.contactId === PRIMARY_SALES_CONTACT);
   if (primaryContact) {
