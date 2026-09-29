@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   // Principal contact confirmed by the client: (11) 99812-8422.
-  const PRIMARY_SALES_CONTACT = 'thiago';
+  const PRIMARY_SALES_CONTACT = 'principal';
   const contactLinks = [...document.querySelectorAll('[data-contact-id]')];
   const primaryContact = contactLinks.find(link => link.dataset.contactId === PRIMARY_SALES_CONTACT);
   if (primaryContact) {
